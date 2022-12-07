@@ -50,7 +50,7 @@ function nextSequnce() {
 
   //Animation of Sequence button to be pressed
   for (let i = 0; i < sequenceGame.length; i++) {
-    setTimeout(highlightButton, (i + 1) * 500, sequenceGame[i]);
+    setTimeout(highlightButton, (i + 1) * 750, sequenceGame[i]);
   }
   //Change title level
   $('h1').text(`Level ${++level}`);
@@ -105,7 +105,7 @@ function highlightButton(btnName) {
   const sound = new Audio(`sounds/${btnName}.mp3`);
   sound.volume = soundVolume;
   sound.play();
-  $(`#${btnName}`).fadeOut(100).fadeIn(100);
+  $(`#${btnName}`).fadeOut(250).fadeIn(100);
 }
 
 //Highlight button which user clicked
