@@ -85,3 +85,12 @@ a:hover{
 .correct{
   background-color: #5F8D4E;
 }
+
+@media (max-width: 600px){
+  .btn{
+    margin: 4px;
+  }
+}
+    
+
+
