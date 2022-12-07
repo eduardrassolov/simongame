@@ -1,0 +1,87 @@
+body {
+  background-color: #011F3F;
+  text-align: center;
+  color: #f0ebe3;
+  font-family: 'Press Start 2P', serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #f0ebe3;
+}
+a:hover{
+  color: gray;
+}
+
+/* Menu section */
+
+#menu {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Game section */
+#game{
+/* visibility: hidden;  */
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+
+}
+.row {
+  display: flex;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border: 6px solid black;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-green {
+  background-color: green;
+  border-radius: 10rem 0 0 0;
+}
+
+.btn-red {
+  background-color: red;
+  border-radius: 0 10rem 0 0;
+}
+
+.btn-blue {
+  background-color: blue;
+  border-radius: 0 0 0 10rem ;
+}
+
+.btn-yellow {
+  background-color: yellow;
+  border-radius: 0 0 10rem 0;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.fault{
+  background-color: #DC3535;
+}
+.correct{
+  background-color: #5F8D4E;
+}
