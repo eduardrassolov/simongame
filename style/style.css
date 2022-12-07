@@ -89,6 +89,8 @@ a:hover{
 @media (max-width: 600px){
   .btn{
     margin: 4px;
+    height: 170px;
+    width: 170px;
   }
 }
     
