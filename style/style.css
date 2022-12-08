@@ -96,8 +96,10 @@ a:hover{
     margin: 0;
   }
   #title{
-    margin: 2px 0 10px 0;
+    margin: 3px;
   }
+  #game{
+    margin-top: 30px;
 }
     
 
